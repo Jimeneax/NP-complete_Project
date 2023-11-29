@@ -14,8 +14,24 @@
 # to imported and invoked from other python scripts
 import sys
 
+def longest_path(G):
+    
+    return 0
 
 def main():
+    Vnum, Enum = input().split()
+    graph = {}
+    
+    for _ in range (Vnum):
+        v, u, w = input().split()
+        if u not in graph:
+            graph[u] = set()
+        if v not in graph:
+            graph[v] = set()
+        graph[u].add(v, w)
+        graph[v].add(u, w)        
+
+    print(graph)
     
     pass
 
