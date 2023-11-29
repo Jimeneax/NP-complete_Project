@@ -14,6 +14,10 @@
 # to imported and invoked from other python scripts
 import sys
 
+
+def TSP(G):
+    return 0
+
 def longest_path(G):
     
     return 0
