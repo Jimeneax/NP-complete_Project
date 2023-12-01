@@ -14,7 +14,15 @@
 # to imported and invoked from other python scripts
 import heapq
 
+<<<<<<< HEAD
 def longest_path(graph):
+=======
+
+def TSP(G):
+    return 0
+
+def longest_path(G):
+>>>>>>> d9805485117eba6d8bec202faad4fd98aea54476
     
     return 0
 
