@@ -12,24 +12,21 @@
 
 # All modules for CS 412 must include a main method that allows it
 # to imported and invoked from other python scripts
-import sys
+import heapq
 
-def longest_path(G):
+def longest_path(graph):
     
     return 0
 
-def main():
-    Vnum, Enum = input().split()
-    graph = {}
+
+def traveling_saleman(graph):
     
-    for _ in range (Vnum):
-        v, u, w = input().split()
-        if u not in graph:
-            graph[u] = set()
-        if v not in graph:
-            graph[v] = set()
-        graph[u].add(v, w)
-        graph[v].add(u, w)        
+    return 0
+
+
+def main():
+    n, m = map(int, input().split())
+    graph = [tuple(input().split()) for _ in range(m)]
 
     print(graph)
     
