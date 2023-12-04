@@ -7,11 +7,12 @@
             - I used this stack overflow answer as an example 
               https://stackoverflow.com/q/19798480
   
-           TSP referenced GeeksforGeeks, Stack Overflow
+           TSP referenced GeeksforGeeks, Stack Overflow, digitalocean
 """
 
 # All modules for CS 412 must include a main method that allows it
 # to imported and invoked from other python scripts
+import time
 from sys import maxsize
 from itertools import permutations
 
@@ -49,7 +50,10 @@ def index_to_letter(index):
 def main():
     n, m = map(int, input().split())
     graph_input = [input().split() for _ in range(m)]
-
+    
+    # The start time of the algorithm
+    start_time = time.time()
+    
     # Initialize the graph as an adjacency matrix with zeros
     graph = [[0] * n for _ in range(n)]
 
@@ -63,9 +67,15 @@ def main():
     # # Convert the vertices back to letters
     path_letters = [index_to_letter(vertex) for vertex in path]
 
+    # The end time of the algorithm
+    end_time = time.time()
+    
     # # Print the results
     print(length)
     print(" ".join(path_letters))
+    
+    # Display the elapsed time in milliseconds
+    print(f"Wall Clock Time: {(end_time - start_time) * 1000} milliseconds")
     
     pass
 
