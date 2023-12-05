@@ -16,7 +16,7 @@ echo -e "\t${BOLD}test\tresult\truntime${NC}"
 
 ## 
 
-PROG_TO_TEST=myprog.py
+PROG_TO_TEST=lp.py
 
 for test in test*
 do
