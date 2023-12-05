@@ -13,7 +13,6 @@
 # All modules for CS 412 must include a main method that allows it
 # to imported and invoked from other python scripts
 import time
-from sys import maxsize
 from itertools import permutations
 
 # TSP Given a set of vertices and weights between every pair of 
