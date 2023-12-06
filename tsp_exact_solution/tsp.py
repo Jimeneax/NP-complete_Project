@@ -1,5 +1,5 @@
 """
-    name:  Alberto Jimenez Aaron Nyaanga
+    name:  Alberto Jimenez
 
     Honor Code and Acknowledgments:
 
@@ -12,7 +12,7 @@
 
 # All modules for CS 412 must include a main method that allows it
 # to imported and invoked from other python scripts
-import time
+import timeit
 from itertools import permutations
 
 # TSP Given a set of vertices and weights between every pair of 
@@ -42,6 +42,7 @@ def tsp(graph, n):
     return min_length, min_path
 
 
+# Convert char into an int
 def index_to_letter(index):
     return chr(index + ord('a'))
 
@@ -51,7 +52,7 @@ def main():
     graph_input = [input().split() for _ in range(m)]
     
     # The start time of the algorithm
-    start_time = time.time()
+    start_time = timeit.default_timer()
     
     # Initialize the graph as an adjacency matrix with zeros
     graph = [[0] * n for _ in range(n)]
@@ -63,13 +64,14 @@ def main():
         graph[v][u] = w
 
     length, path = tsp(graph, n)
-    # # Convert the vertices back to letters
+    
+    # Convert the vertices back to letters
     path_letters = [index_to_letter(vertex) for vertex in path]
 
     # The end time of the algorithm
-    end_time = time.time()
+    end_time = timeit.default_timer()
     
-    # # Print the results
+    # Print the results
     print(length)
     print(" ".join(path_letters))
     
