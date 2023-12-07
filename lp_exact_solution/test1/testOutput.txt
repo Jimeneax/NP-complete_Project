@@ -1,3 +1,0 @@
-Hello
-second line contains this
-Line not read
