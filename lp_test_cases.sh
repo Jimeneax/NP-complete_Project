@@ -1,53 +1,27 @@
 #!/bin/bash
 
-# Sample shell script for running test cases that includes
-# color coding some output.  Code modeled after code
-# from Martin Nester
+# Run the approximation solution on different test cases
 
-RED="\033[0;31m"
-GREEN="\033[0;32m"
-BOLD="\033[1m"
-NC="\033[0m" # No Color
-BLUE="\033[0;34m"
-UL="\e[430m"
+# Test Case 1: Small input
+echo "Running Test Case 1: Small input"
+python your_approximation_program.py input_small.txt
 
-echo -e "${BOLD}Test cases:"
-echo -e "\t${BOLD}test\tresult\truntime${NC}"
+# Test Case 2: Medium input
+echo "Running Test Case 2: Medium input"
+python your_approximation_program.py input_medium.txt
 
-## 
+# Test Case 3: Large input
+echo "Running Test Case 3: Large input"
+python your_approximation_program.py input_large.txt
 
-PROG_TO_TEST=lp.py
+# Test Case 4: High complexity input
+echo "Running Test Case 4: High complexity input"
+python your_approximation_program.py input_high_complexity.txt
 
-for test in test*
-do
-    cd $test
+# Test Case 5: Worst case for approximation (does not achieve optimal answer)
+echo "Running Test Case 5: Worst case for approximation"
+python your_approximation_program.py input_worst_case.txt
 
-    start=`python3 -c 'import time; print(time.time())'`
-    python3 ../${PROG_TO_TEST} < testInput.txt > testOutput.txt
-    end=`python3 -c 'import time; print(time.time())'`
-    runtime=$( echo "$end - $start" | bc -l )
+# Add more test cases as needed...
 
-    # compare the 2nd lines of each file
-
-    # the next 4 lines show a step by step way
-    # of getting the first 2 lines of 2 files and storing
-    # then in environment variables
-
-    #EXPECTED_2NDLINE=`head -n 2 testExpected.txt`
-    #OUTPUT_2NDLINE=`head -n 2 testOutput.txt`
-    #echo expected ${EXPECTED_2NDLINE}
-    #echo output ${OUTPUT_2NDLINE}
-  
-    # This does the same as the commands above just in a single line
-
-    if [ "$(head -n 2 testExpected.txt)" = "$(head -n 2 testOutput.txt)" ]
-    then
-        echo -e "\t${test}\t${GREEN}passed\t${BLUE}${runtime}s${NC}"
-    else
-        echo -e "\t${test}\t${RED}failed\t${BLUE}${runtime}s${NC}"
-    fi
-
-    cd ../
-done
-
-exit 0 
+echo "All test cases completed."
