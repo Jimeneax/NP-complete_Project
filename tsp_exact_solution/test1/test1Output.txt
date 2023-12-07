@@ -1,0 +1,4 @@
+12
+a b c a
+Wall Clock Time: 0.016817008145153522 seconds
+
