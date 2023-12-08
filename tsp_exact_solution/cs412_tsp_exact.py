@@ -8,7 +8,7 @@
 """
 # All modules for CS 412 must include a main method that allows it
 # to imported and invoked from other python scripts
-
+import time
 import sys
 import timeit
 from itertools import permutations
@@ -43,6 +43,7 @@ def main():
     n, m = map(int, input().split())
     graph_input = [input().split() for _ in range(m)]
 
+    start_time = time.time()
     vertices = set()
     for u, v, _ in graph_input:
         vertices.add(u)
@@ -60,12 +61,12 @@ def main():
         graph[v_index][u_index] = w
 
     length, path = tsp(graph, n)
-    
+    end_time = time.time()
     # Print the results
     print (str(length))    
     path_labels = [list(vertex_to_index.keys())[index] for index in path]
     print(" ".join(map(str, path_labels)))
-     
+    print(f"Runtime: {end_time - start_time} seconds")
 
 if __name__ == "__main__":
     main()
