@@ -55,7 +55,7 @@ def main():
     
     for u, v, w in graph_input:
         u_index, v_index = vertex_to_index[u], vertex_to_index[v]
-        w = int(w)
+        w = float(w)
         graph[u_index][v_index] = w
         graph[v_index][u_index] = w
 
