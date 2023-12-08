@@ -1,4 +1,64 @@
-12
-a b c a
-Wall Clock Time: 0.014759018085896969 seconds
 
+0m0.020s
+0m0.023s
+0m0.023s
+Expected Output for Test Case 5:
+18\na b e d c a
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.021s
+user	0m0.019s
+sys	0m0.000s
+Expected Output for Test Case 5:
+18\na b e d c a
+------------------------
+TSP Solution for Test Case 5:
+
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.021s
+user	0m0.019s
+sys	0m0.000s
+Expected Output for Test Case 5:
+18\na b e d c a
+------------------------
+TSP Solution for Test Case 5:
+
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.023s
+user	0m0.018s
+sys	0m0.003s
+Expected Output for Test Case 5:
+18\na b e d c a
+------------------------
+TSP Solution for Test Case 5:
+
+------------------------
+0m0.023s
+0m0.023s
+0m0.023s
