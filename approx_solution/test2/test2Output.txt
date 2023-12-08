@@ -1,0 +1,63 @@
+0m0.021s
+0m0.023s
+0m0.024s
+Expected Output for Test Case 2:
+98\na b c d e a
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.023s
+user	0m0.021s
+sys	0m0.000s
+Expected Output for Test Case 2:
+98\na b c d e a
+------------------------
+TSP Solution for Test Case 2:
+
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.023s
+user	0m0.017s
+sys	0m0.003s
+Expected Output for Test Case 2:
+98\na b c d e a
+------------------------
+TSP Solution for Test Case 2:
+
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.023s
+user	0m0.013s
+sys	0m0.009s
+Expected Output for Test Case 2:
+98\na b c d e a
+------------------------
+TSP Solution for Test Case 2:
+
+------------------------
+0m0.026s
+0m0.024s
+0m0.023s

@@ -1,0 +1,64 @@
+
+0m0.020s
+0m0.023s
+0m0.021s
+Expected Output for Test Case 4:
+238\na c b e d g f i l k j m h p o n q r s t u v w x y z a b2 c2 d2 e2 f2 g2 h2 i2 l2 k2 j2 m2 n2 o2 p2 q2 r2 s2 t2 u2 v2 w2 x2 y2 z2 a2 b3 c3 d3 e3 f3 g3 h3 i3 l3 k3 j3 m3 n3 o3 p3 q3 r3 s3 t3 u3 v3 w3 x3 y3 z3 a3
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.023s
+user	0m0.021s
+sys	0m0.000s
+Expected Output for Test Case 4:
+238\na c b e d g f i l k j m h p o n q r s t u v w x y z a b2 c2 d2 e2 f2 g2 h2 i2 l2 k2 j2 m2 n2 o2 p2 q2 r2 s2 t2 u2 v2 w2 x2 y2 z2 a2 b3 c3 d3 e3 f3 g3 h3 i3 l3 k3 j3 m3 n3 o3 p3 q3 r3 s3 t3 u3 v3 w3 x3 y3 z3 a3
+------------------------
+TSP Solution for Test Case 4:
+
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.023s
+user	0m0.021s
+sys	0m0.000s
+Expected Output for Test Case 4:
+238\na c b e d g f i l k j m h p o n q r s t u v w x y z a b2 c2 d2 e2 f2 g2 h2 i2 l2 k2 j2 m2 n2 o2 p2 q2 r2 s2 t2 u2 v2 w2 x2 y2 z2 a2 b3 c3 d3 e3 f3 g3 h3 i3 l3 k3 j3 m3 n3 o3 p3 q3 r3 s3 t3 u3 v3 w3 x3 y3 z3 a3
+------------------------
+TSP Solution for Test Case 4:
+
+------------------------
+Traceback (most recent call last):
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 71, in <module>
+    main()
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in main
+    graph_input = [input().split() for _ in range(m)]
+  File "/cs/home/stu/jimeneax/NP-complete_Project/tsp_exact_solution/cs412_tsp_exact.py", line 44, in <listcomp>
+    graph_input = [input().split() for _ in range(m)]
+EOFError: EOF when reading a line
+
+real	0m0.023s
+user	0m0.022s
+sys	0m0.000s
+Expected Output for Test Case 4:
+238\na c b e d g f i l k j m h p o n q r s t u v w x y z a b2 c2 d2 e2 f2 g2 h2 i2 l2 k2 j2 m2 n2 o2 p2 q2 r2 s2 t2 u2 v2 w2 x2 y2 z2 a2 b3 c3 d3 e3 f3 g3 h3 i3 l3 k3 j3 m3 n3 o3 p3 q3 r3 s3 t3 u3 v3 w3 x3 y3 z3 a3
+------------------------
+TSP Solution for Test Case 4:
+
+------------------------
+0m0.023s
+0m0.023s
+0m0.021s
