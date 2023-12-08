@@ -61,33 +61,29 @@ def index_to_letter(index):
 def main():
     n, m = map(int, input().split())
     graph_input = [input().split() for _ in range(m)]
-    
-    # The start time of the algorithm
-    start_time = timeit.default_timer()
 
-    # Initialize the graph as an adjacency matrix with zeros
+    vertices = set()
+    for u, v, _ in graph_input:
+        vertices.add(u)
+        vertices.add(v)
+        
+    # Create a dictionary to map vertices to indices
+    vertex_to_index = {vertex: index for index, vertex in enumerate(vertices)}
+
     graph = [[0] * n for _ in range(n)]
-
+    
     for u, v, w in graph_input:
-        # Convert vertices to intergers and update the graph
-        u, v, w = ord(u) - ord('a'), ord(v) - ord('a'), int(w)
-        graph[u][v] = w
-        graph[v][u] = w
+        u_index, v_index = vertex_to_index[u], vertex_to_index[v]
+        w = float(w)
+        graph[u_index][v_index] = w
+        graph[v_index][u_index] = w
 
     length, path = nearest_vertex_tsp(graph, n)
-
-    # Convert the vertices back to letters
-    path_letters = [index_to_letter(vertex) for vertex in path]
     
-    # The end time of the algorithm
-    end_time = timeit.default_timer()
-
-    # Print the result
-    print(length)
-    print(" ".join(path_letters))
-    
-    # Display the elapsed time in milliseconds
-    print(f"Wall Clock Time: {(end_time - start_time) * 1000} milliseconds")
+    # Print the results
+    print (str(length))    
+    path_labels = [list(vertex_to_index.keys())[index] for index in path]
+    print(" ".join(map(str, path_labels)))
 
 if __name__ == "__main__":
     main()

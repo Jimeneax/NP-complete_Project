@@ -1,3 +1,3 @@
 70.0
-a e c d b a
-Runtime: 4.1484832763671875e-05 seconds
+d c e a b d
+Runtime: 4.00543212890625e-05 seconds

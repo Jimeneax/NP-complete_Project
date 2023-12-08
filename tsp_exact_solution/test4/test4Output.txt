@@ -1,3 +1,0 @@
-30.0
-d c b a j g h i f e d
-Runtime: 0.44625139236450195 seconds
