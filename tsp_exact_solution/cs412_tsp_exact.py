@@ -1,6 +1,6 @@
 
 """
-    name:  Alberto Jimenez
+    name:  Aaron Nyaanga and Alberto Jimenez
     Honor Code and Acknowledgments:
             This work complies with the JMU Honor Code.
             - I used this stack overflow answer as an example 

@@ -1,5 +1,5 @@
 """
-    name:  Alberto Jimenez
+    name:  Aaron Nyaanga and Alberto Jimenez
 
     Honor Code and Acknowledgments:
 
